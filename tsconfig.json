@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng-image-viewer": [
+        "dist/ng-image-viewer"
+      ],
+      "ng-image-viewer/*": [
+        "dist/ng-image-viewer/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

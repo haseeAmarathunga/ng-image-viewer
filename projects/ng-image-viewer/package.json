@@ -1,0 +1,37 @@
+{
+  "name": "@haseeamarathunga/ng-image-viewer",
+  "version": "0.0.2",
+  "author": "Hasitha Amarathunga",
+  "contributors": [
+    "haseeAmarathunga"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haseeAmarathunga/ng-image-viewer"
+  },
+  "bugs": {
+    "url": "https://github.com/haseeAmarathunga/ng-image-viewer/issues"
+  },
+  "homepage": "https://github.com/haseeAmarathunga/ng-image-viewer#readme",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14",
+    "font-awesome": "^4.7.0"
+  },
+  "keywords": [
+    "ngx-image-viewer",
+    "ng-image-viewer",
+    "angular-image-viewer",
+    "image-loader",
+    "image-view",
+    "loader",
+    "image",
+    "angular-image",
+    "ngx-image",
+    "Angular Image Viewer",
+    "Angular Image Loader",
+    "Hasitha Amarathunga",
+    "Hasee Amarathunga"
+  ]
+}
