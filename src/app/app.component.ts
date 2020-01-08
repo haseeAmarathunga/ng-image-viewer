@@ -9,16 +9,5 @@ import {ImageViewerConfig} from '../../projects/ng-image-viewer/src/lib/model/im
 })
 export class AppComponent {
   title = 'haseePackage';
-  config: ImageViewerConfig;
-  images = ['https://i.ytimg.com/vi/nlYlNF30bVg/hqdefault.jpg'];
-  imageIndexOne = 0;
-  handleEvent(event: CustomImageEvent) {
-    console.log(`${event.name} has been click on img ${event.imageIndex + 1}`);
-
-    switch (event.name) {
-      case 'print':
-        console.log('run print logic');
-        break;
-    }
-  }
+  images = ['https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'];
 }

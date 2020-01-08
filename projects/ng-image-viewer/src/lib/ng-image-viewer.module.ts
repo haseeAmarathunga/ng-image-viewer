@@ -11,9 +11,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
   declarations: [NgImageViewerComponent],
   imports: [
     CommonModule,
-    BrowserModule,
     FormsModule,
-    BrowserAnimationsModule,
   ],
   exports: [NgImageViewerComponent]
 })

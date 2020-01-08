@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {NgImageViewerModule} from '../../projects/ng-image-viewer/src/lib/ng-image-viewer.module';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {CommonModule} from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -12,7 +14,9 @@ import {NgImageViewerModule} from '../../projects/ng-image-viewer/src/lib/ng-ima
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgImageViewerModule
+    NgImageViewerModule,
+    BrowserAnimationsModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

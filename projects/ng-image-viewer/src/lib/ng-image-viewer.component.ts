@@ -103,7 +103,7 @@ export class NgImageViewerComponent implements OnInit {
   @Output()
   customImageEvent: EventEmitter<CustomImageEvent> = new EventEmitter();
 
-  public style = { transform: '', msTransform: '', oTransform: '', webkitTransform: '' };
+  public style = { transform: '', msTransform: '', oTransform: '', webkitTransform: '', cursor: 'pointer' };
   public fullscreen = false;
   public loading = true;
   private scale = 1;
@@ -188,9 +188,6 @@ export class NgImageViewerComponent implements OnInit {
   }
 
   onDragStart(evt) {
-    if (evt.dataTransfer && evt.dataTransfer.setDragImage) {
-      evt.dataTransfer.setDragImage(evt.target.nextElementSibling, 0, 0);
-    }
     this.prevX = evt.clientX;
     this.prevY = evt.clientY;
   }
