@@ -20,7 +20,7 @@ const DEFAULT_CONFIG: ImageViewerConfig = {
     zoomOut: 'fa fa-minus',
     rotateClockwise: 'fa fa-repeat',
     rotateCounterClockwise: 'fa fa-undo',
-    fullscreen: 'fa fa-arrows-alt',
+    fullscreen: 'fa fa-refresh',
   }
 };
 
