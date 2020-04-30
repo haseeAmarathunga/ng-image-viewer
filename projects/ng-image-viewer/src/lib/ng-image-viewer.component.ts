@@ -65,14 +65,14 @@ const DEFAULT_CONFIG: ImageViewerConfig = {
               <span [class]="config.btnIcons.fullscreen"></span>
           </button>
 
-          <!--    <div class="nav-button-container" *ngIf="src.length > 1">-->
-          <!--        <button type="button" [class]="config.btnClass" (click)="prevImage($event)" [disabled]="index === 0">-->
-          <!--            <span [class]="config.btnIcons.prev"></span>-->
-          <!--        </button>-->
-          <!--        <button type="button" [class]="config.btnClass" (click)="nextImage($event)" [disabled]="index === src.length - 1">-->
-          <!--            <span [class]="config.btnIcons.next"></span>-->
-          <!--        </button>-->
-          <!--    </div>-->
+          <div class="nav-button-container" *ngIf="src.length > 1">
+              <button type="button" [class]="config.btnClass" (click)="prevImage($event)" [disabled]="index === 0">
+                  <span [class]="config.btnIcons.prev"></span>
+              </button>
+              <button type="button" [class]="config.btnClass" (click)="nextImage($event)" [disabled]="index === src.length - 1">
+                  <span [class]="config.btnIcons.next"></span>
+              </button>
+          </div>
       </div>
   `,
   styleUrls: ['./ng-image-viewer.component.scss' ]
